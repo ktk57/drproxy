@@ -1,0 +1,10 @@
+[Global]
+Port = ":8080"
+Header = "X-purl"
+QSizePerURL = 10
+MaxConn = 50000
+MaxConnPerHost = 5000
+Chanbuff = 10
+Timeout = 200 # in Milliseconds
+ErrorFilePath = /home/http/error_drproxy.log
+LogFrequency = 60
